@@ -1,0 +1,23 @@
+{
+  "name": "phatthachdau",
+  "version": "1.0.0",
+  "description": "study hard bro",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kelvin2250/Learn_backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kelvin2250/Learn_backend/issues"
+  },
+  "homepage": "https://github.com/kelvin2250/Learn_backend#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
