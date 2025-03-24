@@ -1,0 +1,38 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update a User</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="/">Home</a>
+        <a href="/create">Create Users</a>
+    </div>
+
+    <div class="form-add-new">
+        <form action="/delete-user" method="post">
+            <fieldset>
+                <legend>Comfirm</legend>
+                <div class="input-group d-none">
+                    <label for="id">id:</label>
+                    <input type="text" id="id" name="id" value="<%= user.id %>">
+                </div>
+
+                <div class="input-group">
+                    <label for="email">Do you sure to delete this email:</label>
+                    <input type="text" id="email" name="email" value="<%= user.email %>">
+                </div>
+
+                <div class="submit">
+                    <button>Confirm</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
